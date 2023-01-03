@@ -6,7 +6,8 @@ $(function () {
     // data: post才會用
 
     success: function (res) {
-      console.log(res);
+      console.log(res.records.locations[0].locationName);
+      $('#city_name').html(res.records.locations[0].location)
     },
     error: function (err) {
       console.log(err);
