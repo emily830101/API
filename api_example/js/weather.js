@@ -1,7 +1,7 @@
 $(function() {
     const cors = 'https://cors-anywhere.herokuapp.com/';
     $.ajax({
-        url: cors + 'https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-D0047-063?Authorization=CWB-A13D4A9A-CCDC-492F-B370-A3E7289AE3C7&locationName=%E4%B8%AD%E6%AD%A3%E5%8D%80&elementName=T',
+        url: cors + 'https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-D0047-093?Authorization=CWB-B07587C1-6DD3-4673-9CF4-3344E4B60995&format=JSON&locationId=F-D0047-063&locationName=%E4%B8%AD%E6%AD%A3%E5%8D%80&elementName=T',
         type: "GET",
         dataType: "json",
         success: function(res) {
